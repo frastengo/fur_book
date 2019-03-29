@@ -1,0 +1,35 @@
+
+{
+  "profiles": [
+    {
+      "id": 0,
+      "name": "Kokiri",
+      "city": "Antofagasta",
+      "country": "Chile",
+      "age": 14,
+      "favorite": "Going on walks",
+      "breed": "Dalmatian",
+      "image": ""
+    },
+    {
+      "id": 1,
+      "name": "Iggy",
+      "city": "Salt Lake City",
+      "country": "United States",
+      "age": 4,
+      "favorite": "Going on walks",
+      "breed": "English Bulldog",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "city": "Phoenix",
+      "country": "United States",
+      "age": "5 months",
+      "favorite": "Bitting",
+      "breed": "American Pitbull",
+      "image": ""
+    }
+  ]
+}

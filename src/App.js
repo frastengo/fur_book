@@ -1,25 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from '../src/components/Header/Header'
+import ProfileList from '../src/components/ProfileList/ProfileList'
+import axios from 'axios';
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+    super(props)
+
+    this.state = {
+      profiles: [],
+    }
+
+
+  }
+
+  componentDidMount(){
+    this.getProfiles();
+  }
+
+  getProfiles = () => {
+    axios.get("/api/profiles").then(res => {
+      console.log(res.data.profiles)
+      this.setState({
+        profiles: res.data.profiles,
+      });
+    })
+  }
+
   render() {
+    const {profiles} = this.state
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header />
+        <ProfileList profiles={profiles}/>
+
       </div>
     );
   }
