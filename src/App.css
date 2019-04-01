@@ -1,6 +1,11 @@
 .App {
   font-size: 16px;
-  font-family: 
+  font-family: 'Merienda', cursive;
+  background-attachment: fixed;
+  background-image: url("./opacityprints.png");
+  background-size: cover;
+  /* background: grey; */
+
   
 }
 
@@ -12,6 +17,7 @@
   align-self: center;
   margin: 20px 20px;
   box-shadow: 3px 3px 3px grey;
+  font-family: 'Merienda', cursive;
 
 }
 
@@ -40,14 +46,17 @@
   background: blue;
   width: 100%;
   font-size: 16px;
-  
+}
 
+.display-container{
+  margin: 0 20px;
 }
 
 .profiles {
   /* max-width: 1200px; */
   /* background: black; */
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   border: 2px solid grey;
   border-radius: 5%;
@@ -55,6 +64,7 @@
   background: grey;
   background-image: url("./prints.jpg");
   box-shadow: 3px 3px 3px grey;
+  /* width: 200px; */
 }
 
 
@@ -62,11 +72,14 @@
 .profile-container, .profile-container-1{
   /* height: calc(100vh - 60px); */
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
   /* border: 3px solid grey; */
   margin: 10px;
 }
+
+
 
 
 /* .holding-3 {
@@ -114,6 +127,7 @@
   margin: 5px 5px;
   border-radius: 10%;
   box-shadow: 3px 3px 3px grey;
+  
 }
 
 .profile-container-1 img{
@@ -125,6 +139,12 @@
   box-shadow: 5px 5px 5px black;
 }
 
+.profile-container-1 img:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  box-shadow: 5px 5px 5px black;
+}
+
 /* .App {
 
 } */
@@ -132,17 +152,18 @@
 .header-container {
   height: 100%;
   width: 100%;
+  max-width: 1000px;
   /* display: flex; */
   /* justify-content: space-between; */
   /* display: flex; */
   /* justify-content: space-between; */
   /* align-items: center; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   background: white;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   
 
 }
@@ -157,9 +178,9 @@
 
 
 
-header {
+/* header {
   height: 150px;
-}
+} */
 .logo {
   background-image: url("./logo.png");
   background-size: cover;
@@ -181,5 +202,8 @@ header {
 
 .footer {
   background-image: url("./download.jpeg");
-  background-size: cover;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }

@@ -62,7 +62,7 @@ module.exports = {
         image: friend.image,
         };
 
-        res.status(200).send(messages);
+        res.status(200).send(profiles);
     },
 
     // deleteProfile: (req, res) => {

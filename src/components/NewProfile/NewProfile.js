@@ -13,6 +13,7 @@ export default class NewProfile extends Component {
             age: '',
             breed: '',
             image: '',
+            // imagedefault: 'http://visualwebs.net/img/placeholder-image.png',
             newProfile: [],
             showForm: true,
             
@@ -51,9 +52,26 @@ export default class NewProfile extends Component {
         })
     }
 
+    edit = e => {
+        this.setState({
+            showForm: true,
+        })
+        
+        let edittedProfile = [{name: this.state.name, age: this.state.age, breed:this.state.breed, image: this.state.image}]
+        this.props.editProfile(newProfile[0].id)
+        this.setState({
+            newProfile: [newProfile],
+            showForm: false,
+        })
+    }
+
     render(){
         const {name, age, breed, image} = this.state
         const newProfile = [{name: name, age: age, breed: breed, image: image}]
+        const mappedNewProfile = newProfile.map(profile => {
+            return (
+                <DisplayNew edit={this.edit} id={profile.id} profile={profile}/>
+            )})
         return(
             <div>
             {this.state.showForm &&
@@ -94,10 +112,12 @@ export default class NewProfile extends Component {
                         // style={{flex: '1', fontSize: '14px', border: '1px solid black'}}
                     />
                     <button onClick={this.props.cancel}>Cancel</button>
-                </form>
+               </form>
             }
-                <DisplayNew currentProfile={newProfile}/>
+                {mappedNewProfile}
             </div>
+            
+            
         )
     }
 }

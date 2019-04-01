@@ -3,7 +3,7 @@ import './DisplayNew.css'
 
 
 export default function Display(props){
-    const mappedCurrentProfile = props.currentProfile.map(profile => {
+     const {profile} = props
         return (
             <div key={profile.image} className="profile-container-4">
                 <img src={profile.image} alt=""/>
@@ -12,10 +12,9 @@ export default function Display(props){
                     <h2>{profile.age}</h2>
                     <h2>{profile.breed}</h2>
                 </div>
-                {/* <button onClick={()=>props.edit(profile)}>Edit</button> */}
+                <button onClick={()=>props.edit(props.id)}>Edit</button>
             </div>
         )
-    })
-    return <div>{mappedCurrentProfile}</div>
-    
 }
+
+    

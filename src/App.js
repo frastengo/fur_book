@@ -136,6 +136,10 @@ class App extends Component {
       showForm: false,
     })
   }
+
+  // edit = (profile.id) => {
+
+  // }
   
 
 
@@ -173,14 +177,16 @@ class App extends Component {
               <button className='create' onClick={this.displayForm} >Create New Profile</button>
               <div>
                 { this.state.showForm &&
-                  <NewProfile cancel={this.cancel} addProfile={this.addProfile}/>
+                  <NewProfile cancel={this.cancel} addProfile={this.addProfile} edit={this.editProfile}/>
                 }
               </div>
             </div>
-            <ProfileList profiles={profiles} meet={this.meet}/>
-            <Display currentProfile={currentProfile} add={this.add}/>
-            <Friends friends={friends} delete={this.delete} handleChange={this.handleChange} value={this.value}/>
-            <footer className='footer'></footer>
+            <div className="display-container">
+              <ProfileList profiles={profiles} meet={this.meet}/>
+              <Display currentProfile={currentProfile} add={this.add}/>
+              <Friends friends={friends} delete={this.delete} handleChange={this.handleChange} value={this.value}/>
+            </div>
+            <footer className='footer'>im the footer</footer>
           </div>
         </div>
       </div>
