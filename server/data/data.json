@@ -4,22 +4,22 @@
     {
       "id": 0,
       "name": "Kokiri",
-      "city": "Antofagasta",
+      "city": "Calama",
       "country": "Chile",
-      "age": 14,
+      "age": "6 years",
       "favorite": "Going on walks",
       "breed": "Dalmatian",
-      "image": ""
+      "image": "https://lh3.googleusercontent.com/JGhf_jQ0wbk2j3wTVP_PfnACBYx2qzxeYe8rj_j2DdoJ0KdsSQm9AyuT52uulpCW7mH5spqpIsQe52yBz0kBPoOlcjuFRB1rcWa8_figib10JLXsZcS5RKGJ1IfNktiWLoOi50o0WBx8wXWtMNHJWIvR_1rW3cqCO7yMbzaVKyHtYUshampYkUBS7J2KwkFoEC1zfLsLsJxu6BUOVSJL6x0xFiU5WUYbCeGhEZCaevPItjtQxUYYhgT-DlXgFBw78n7pkaW31u4ZdolM_whjxfNmK0hCiyL6wgKAj07yjRPBFT-hUnc9F3CY4ClI1ycuV_j9-_JYko-3nWHOMqO13dF-8macc5GxJWRSGG6atj_PuMvmHeY9tBPoHvvUpvA9Hl59begOagGBx7t5cLyrX8YzajZ50EydW-NHLugSnoGQ_G2XPcmPADp3VtRGHhHXjvBLM3P6O3iFYgLhV6JpgbRr6gXcN8qSTXF-5MARgyp6eVgS303jdFKc6WFpxF1AXYpkQeycDTrOscUAPLf2wM1PX9H_5jLG3FwSzFzXXq9qQUOmSM8NsarH2QDAQb6ng1kCK2HVHNOGp5Ce6b8IWgNzFyNboDYjltVeEnPo3We5obGKxXJuYoelWSV9LQ5A28aUh3qM6dIDqYbIm8CQoo-Hj1jXfuY=w634-h589-no"
     },
     {
       "id": 1,
       "name": "Iggy",
       "city": "Salt Lake City",
       "country": "United States",
-      "age": 4,
-      "favorite": "Going on walks",
+      "age": "4 years",
+      "favorite": "Napping",
       "breed": "English Bulldog",
-      "image": ""
+      "image": "https://lh3.googleusercontent.com/Yi2U24IRtl7q-120giGZWsHzjN8wNdcct6OXHMV8MLGUFNsmyvUBU6Rfi3kw0Df-TP5AbzF_DWHha8wtIf9_7elTWynT7G_j05N-bWQrBwaoYSaz3K2-8fgYiYB4DB99dyd24Q-oi9fxaIKNsgMSEq1d2SyCSNG9YdTapH6OTVyuc5SWOd8oImrrszoP4vD-C8nbWddT74JO6a3sXxdkzVmdeWbkID-uZzV6iAy2_qQMWr_11Sfoc-LuQj6Jcy6vU1PQI6S5LkxKk7B8acdcO9H-oC3VAkUV8oQ8ZAKVC_UMy1Cux6plQYixUWv0EttQ5scf5iHnicQJ9WYAbqjohGYy-5sbRZ1wGgHAEuFIMuRWJSkv4ffqL1CO3p5BHWbonpgbRkVAtN0t3RdH5xgb_1KUkigzJ0BN2QzLuEV1keMNHhfiIi1nIvARa2l5t0FG5xB66hytT6opBZ_GsX99IC5bbJavA3A4jYsJ4aPMJokFywDNs6C9pYvrngROEM6PKU5wrCyLlhNgF8WSxfsfyiZIZr8D-Tszj9rtCehdfubCnJPj4mo9mhgnnEgygoAqn5Cu13KpDs8ahuvedGIgqyFJo5M4rXl1MlNR6b-9ucmEQi-5taFNeRr9JDls1clBd2DPOWGdF4Npc66sPbEcRhN1zBPEa24=w741-h737-no"
     },
     {
       "id": 2,
@@ -29,7 +29,84 @@
       "age": "5 months",
       "favorite": "Bitting",
       "breed": "American Pitbull",
-      "image": ""
+      "image": "https://lh3.googleusercontent.com/MNtG2WW6wsDFVmByAqTfC8MXOj1XUZYeGBWUzdIShxc7nctgALwj4obuQ3VQEsioSOexMvBZTGMkliAapgyBZEWLHVHpJryIJCo-Nv-KnLI4qf8LRqHCFxv9LdthTpNJsCWvLA0e0SOu7t4ZxYrd5vloFgw1XvORU0_tIeSJYi-U7_SR8gYGOvdTK0PBtRDJIPJHXH-CKyPVmwX7NkmWo31dA3U9vNXFFIgcF_QR1KGSfbS8D7zCKtPrzXE6791jRiEnhexdDhlWSYx9nGWzVBucInNQ9VqUA7-0ImPv7g1_Y2NJRkhOAHHmR1ruyDku8a9tja0ucWo2mLbB7aNht_-xE_ZecsIJtbt5LvKrCo-HnKau18dSgo15tyd4K_AFiH1yAnsVATSdlj6RHgPUYI7TEWfPd7W7zF2bKa9BPKRW9NBYxkxmy3PabX7SEd3PyxkqTBmFym9momK3m04-SFbWIGGownF7H9scjHSJI82UCOGAIKM6j3uccMy7HUcDcfo3VzbQFy-ugkgEk2ol6MfPTMckpSGyfRtwuhyHSJMzLGShM0QImwVdSs9hmRHkoNZ3sOltA-t8c4jUD1dmjwDg6L_nw16nuXdfdsPYDpNQk0Rx8fuMYGUOTJclfHt4DJ7_utOdgCD_BgrRwyO_7XVk1OjhH08=w575-h766-no"
+    },
+    {
+      "id": 3,
+      "name": "Dutchie",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "age": "5 months",
+      "favorite": "Bitting",
+      "breed": "French Bulldog",
+      "image": "https://lh3.googleusercontent.com/02VVxkVVEPpx4DwrII1H714FQZrTzN0An5OIqU7rozQobTliE1JEkSAYTIEbYNFO_f9F9HkffOB7o0qIUIMVjXHfPb9BcgLjx66f2_M5SLLMnydNKlh1R6siYuOdjXPMGIOsOTFub_tinbMuTqauB8GZ2JfoaAiQM383ocIZYrkwVd8IGnIVSsAXhn2zVzEJYHxx3JgMsVz3PDeQe57ckWgWZUNtNY8OHlBXNArJPyD5Wzi0HY0ItK7uXAnqw6BWzb21SMJhSNbUFosgnfZhN_Nd-f-iN18o3Ct9QV5fa4Xhjm2uXLK38W5P_FtUfvtEl8gy-UoZlFlB1RT_sKZVmc1uHCMZtPwrjlCTkrga7SEnz_KsD5mSgFQgf-YSpOyc8exqgDOaZc_wygOuYW5I8XGnkyyBnyAnc5T7AQO1W3V0pgqsDd1_vUo73C05hgC4sHvXN6InhBfmJte4YTqnJHC22VA3kNS1nGrdbBl9JqCLKOFDCsVVFOsZfw-J8tbGTMubPCWCYXatoG0C965HW-v1OnEhtuww5opubuUBLpA2bk89ai8PgIT5TfDZUrdVb_UqRcW4yK6xK447KHJXolpV9K6eHjWn8oZGnG-uAd9M4i2h5KcB7FKBaMrsGb3uW09clQAMX6nwBvNLItEI4xWgUwv0TkU=w750-h725-no"
+    },
+    {
+      "id": 4,
+      "name": "Nala",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "age": "2 years",
+      "favorite": "Wearing bandanas",
+      "breed": "GoldenDoodle",
+      "image": "https://lh3.googleusercontent.com/FnqsDEb1zSKwyaSVgQL_J3Bz2WdKmPtqFhVg1We-Nj-C-DLQ1B-CsYLZU1dBWtHGwssQAaTB1N7MMqjV-WyoKkhT_70sHZQ5_XVrKQU8KAJtD9EDBBGXn5nWknqTiaSDatqdxVtDEfYhbWUBJ1oM99DApJ6X_RR6gNMxYAwJG-sjDJUkmSd-DNXsgYZE1IXrP7xDuD0M5-iNIrCq3w9RK_bv2ylowczuTOzvhoxt15BCX8hiwOFvyXQPk1JIMAC2HNpqIu2PbmXVyaXiIRwvrXplNanrYmXLEhlCToxd_U0VBGMlPI-nonXE9fH2Yil6dt4SHRLDwTqq82eSRIgNx9L43bwCr_V6XFOM08a90zJ66J9jUWXPGvplnndnyrGhbqMd4NT1UsZuPHbWE_-mc7fGEYdmu_zScsUK5EaPKkfERg0GL-d3Y8Yx107wE0NImm5mGRmEA7Qi5ko5sAbc45-mdkcJlS1wPYrJfjhyPsmx1kuMCpARmcU7q5FCgTzYjhqlN-YymyM0e5-6zSG4W2XSvTPk0vwpIi1-Wrwa1sYsKsn7vXbAuI52fUnI8RRMOyiV4IwYZMb5gQMIzVzR9f9aKO9xu3nm6qj8Wa7mKkQYClFQHTBi6i-Wwdu7ietonF982NmQTkt_FE9HbP5rUb8dlrVFgdc=w555-h740-no"
+    },
+    {
+      "id": 5,
+      "name": "Helix",
+      "city": "Mexico City",
+      "state": "Mexico City",
+      "country": "Mexico",
+      "age": "2 years",
+      "favorite": "Play fetch",
+      "breed": "Border Collie",
+      "image": "https://lh3.googleusercontent.com/uiCFmY53IGLlsbUsinkeGUeDR9fFeAFQTXxxxUSBKtzEgtu8hCn5OwmXN1uwx4bC6b23TytLnqqQztcoWvrFE1rz9n8OA6KyM95v_PfvFk90CyLeb5E7BzWla5lvNnik9Y3MrC9p-MRUiXi_R3elGDJSUiMPknd0CUFIeyifLAo_1a4KgX5XXr61W_WG4458hCgWt6sAtvBocgqXCu-W6aG1na2-goFum-d5Jw92xEQOXGjS8AvDrCnIzWgLBlIDkNeXmTP8Vulxlkt7VRR2DDzG-w_LCwgv3mo7wROLVWW9Wkw6F5EjY0TU0RRMaNvERWkfCnohtGuOQRXR94wzwgwJLKqWIm3NPFGpb8ZHtvPHEfAuYfikRf_pETkefvZeKw2V8I6GKx7XAMUHzvJ12_ssDldWbv6mNZmsEEr9eNoaecyDReWcGbCkV25FTxG_9S3j1PeO9XwpQNRSmt4fAD-CU6P_DnnY6Vh3ptSv9ilVh0CzSWP2U2i5pUXA-WM8AI4ygLLBBWP1skudTAxyjTeUOiOAFrFd5zsQv3mzkhvrzUxAudxt67jdJ87I-kVrtw8CgBJOdTCPSFCdPrTM5PR2qnGa4LCz2r_qXtfUtX_9QnMYNA8qeTFCzQfQs3Ss9jq4yhoG0eeKm5CYyVRLm8f204RLd_k=w597-h737-no"
+    },
+    {
+      "id": 6,
+      "name": "Bella",
+      "city": "Gilbert",
+      "state": "Arizona",
+      "country": "United States",
+      "age": "7 years",
+      "favorite": "Green stuffed toy",
+      "breed": "Maltese",
+      "image": "https://lh3.googleusercontent.com/9SmtQ53Sc4wztI0JkQfC2cXKKHS7pD_4Jg36vL-7j2u1g9-u94tFM2jCN-i5dKI6r3o_cdPAWUII6ztTDMOANhGhIM0-46b3VL3iOar2bJYpTSLyhhe4CsHfcTTMBy1aqeEmAjJAHWEa9ZFlGmJ0NS8sROreccFyqGTCfJvbNaZK98b_dbExe8KjKNQ81sE_HXWUSvNus-2i6wB9sQKvO9U1SozDwPzDz1kbDBvB2El-NrHMr9ts-wYDBIQxB1NEQ_Meoz0l2uJJ-d5q0Kd6kWrK8Ugj8i3msAWRLpFYFrma-V0oxs_gR7vHe6SaNTq9mSks0f_uILUPFea194S_sR4LM75grxH90cUrF5ldLusJO6cuQfe6-_CxRVFS0N2XSwPAXx_ZvXr5vbx8zwmhvlAAYLQAKvrsa2keXBswY4DLwN5Y1lbc109yQQ6vUFxO2FNZA1hHWtv5qiasnIdlofvrjUlWNc_GerdBIRdS2dTF38prTblfG7fX5NTQZpJV0xJHKkqzrcW6bIhzbn7snAaJ49NejkdkyLmvc-yc66OE47dbPzxd-wHPpRSM_aOTtIHxZL-tXNDqF9AzCfnbHGvBJPGlDadKEV5F_VZUfC-GntPI_k7fl3kHuapnmfZD7NAGPiy89uMJO3kz5aZVHwxgmlIxPHE=w747-h717-no"
+    },
+    {
+      "id": 7,
+      "name": "Mugsy",
+      "city": "Colts Neck",
+      "state": "New Jersey",
+      "country": "United States",
+      "age": "needs age",
+      "favorite": "Chewing loud squeaky toys at 500 SPM(squeaks per minute)",
+      "breed": "French Bulldog",
+      "image": "https://lh3.googleusercontent.com/FnqsDEb1zSKwyaSVgQL_J3Bz2WdKmPtqFhVg1We-Nj-C-DLQ1B-CsYLZU1dBWtHGwssQAaTB1N7MMqjV-WyoKkhT_70sHZQ5_XVrKQU8KAJtD9EDBBGXn5nWknqTiaSDatqdxVtDEfYhbWUBJ1oM99DApJ6X_RR6gNMxYAwJG-sjDJUkmSd-DNXsgYZE1IXrP7xDuD0M5-iNIrCq3w9RK_bv2ylowczuTOzvhoxt15BCX8hiwOFvyXQPk1JIMAC2HNpqIu2PbmXVyaXiIRwvrXplNanrYmXLEhlCToxd_U0VBGMlPI-nonXE9fH2Yil6dt4SHRLDwTqq82eSRIgNx9L43bwCr_V6XFOM08a90zJ66J9jUWXPGvplnndnyrGhbqMd4NT1UsZuPHbWE_-mc7fGEYdmu_zScsUK5EaPKkfERg0GL-d3Y8Yx107wE0NImm5mGRmEA7Qi5ko5sAbc45-mdkcJlS1wPYrJfjhyPsmx1kuMCpARmcU7q5FCgTzYjhqlN-YymyM0e5-6zSG4W2XSvTPk0vwpIi1-Wrwa1sYsKsn7vXbAuI52fUnI8RRMOyiV4IwYZMb5gQMIzVzR9f9aKO9xu3nm6qj8Wa7mKkQYClFQHTBi6i-Wwdu7ietonF982NmQTkt_FE9HbP5rUb8dlrVFgdc=w555-h740-no"
+    },
+    {
+      "id": 8,
+      "name": "Declan",
+      "city": "Colts Neck",
+      "state": "New Jersey",
+      "country": "United States",
+      "age": "needs age",
+      "favorite": "Walks on the beach",
+      "breed": "Irish Wolfhound",
+      "image": "https://lh3.googleusercontent.com/bTwXoUwFqejgPCJoFwE_CWFcJyPOC5ZmwDsKby798BZWBqqocg2TAqvRVEMDPVGtFjLBdy0worvS_Wa60vjL2FE0NeuyfhlqIF8EvCGZqonxs390BAGZxFTHSpzflXIWq-ckys4FBfP-ICjhirSKHFVhsmOir-fqvgnEBm3zqAlBGo05E-35epl0xmQwggJO1ndut0PYHFlgXqdk0-jCmgfqBD77-t6Y1M2yInsgUm3S1QtCOvUeo24HqfsDawVr-W-alsn27Vs_zmEc-scyX6qMsnknF6MR8bsOVvtjXbbUkTWOSxlB-GIMb_DMLTt8MJEO2aq-RFL-abKdrZ3XgvAjV8K6kOWQ13zTK_uwc3JJmwCaz7fq_q7BtdjSott4M49MuyLAU3uGXrhlx2rmq0u9-H3Wmr2mx3At22Reg2WqCDdzMVMPVaxKLT9Ez3kbd4E6E7ta2294JzDbb-JR_ToCsL6mC83IagjcoPFheDYJLcyy8ed3vOli-arI4ZKgjM7u289DtX053Dhd_FtjFFbmtC6KtxalFJUUG26zGoU6bMtFjmz0sCO8cbyTN1kht-G3gjBceZ0Bes40edPSp-Cq78HeEYcKSjgO3dmSys4Iz14-lIBEIuiFU2YL-OrWLUBTgHI6UU9spnCU7xlXqCwIcqju3Vk=w518-h615-no"
+    },
+    {
+      "id": 9,
+      "name": "Wylie",
+      "city": "Bullhead City",
+      "state": "Arizona",
+      "country": "United States",
+      "age": "70 dog years",
+      "favorite": "Road trips",
+      "breed": "Pomeranian",
+      "image": "https://lh3.googleusercontent.com/HIMeVPHNiIinMW7teHkZpgqY5dgg39FoTCLyOVWl4OKErDKCtVFIDsquPic67IQLt_yvC6a5IOAPif_gU93F4-_YAplRcSojX1XFbZfG8uueZXCzZtE7n7q7f2EYla-Ldl8CWJy4-tgrjYgwK3TBq1ef_oiac_hX3NxWK_2eZTS9rWMnhEWeWB2X7QEOximUPVkna98YN8w5qZJ2XHBjChDxNKSP7vPnOy6lc_9oFjQUII2DbKpTSNk5khokuhhwYJbhDjoMHWa7Vus9s8LNSYzJ_XI8OelZ7Yh-0vAJcAh7LZZqkTL59g05p2IJjyvigd9ts5-szOFntnbbpVGp6D7jfNJ6xUeSWox7uFuDnL64EwFspy65brk84lQhXoh_z7DWgHFnFjgEdvykmbMYvnEtGv1Y14mVdA18EVYWLA4F3FOrHlSHhSn8OrQqmwfIxZrMXf_rRF8EnQqcLav-wLVBpG10NbLcXDvxG6YhkBh9MvTw5CF1eWDQHA6gHpafqmTj4TZubbKAk7aPKgOo_bzrKjYqvh648FLyeeI0pACY2_xtAJRoDCgbFOIaBNNgkJVoc1R5bj1mYDB6Qh-GHB1VI0VFXX6o7FbpLIYIGyEFZ9-Cxe9KAOYXNtHWIThL_cnRFm0RiXZ7tPpwO5lYpl7i7MK_iYo=s573-no"
     }
   ]
 }

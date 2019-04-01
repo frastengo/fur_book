@@ -1,0 +1,21 @@
+.profile-container-4{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 5%;
+  margin-left: 10px;
+  background-image: url("./opacityprints.png");
+  padding: 10px 10px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.profile-container-4 img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    margin: 5px 5px;
+    border-radius: 10%;
+  }
