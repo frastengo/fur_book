@@ -108,7 +108,7 @@ class App extends Component {
           <div classname="main-container">
             <div className='main'>
               <div className="create-new">
-                <img />
+                
                 <button className='create' onClick={this.displayForm} >Create New Profile</button>
                 <div>
                   { this.state.showForm &&

@@ -48,7 +48,6 @@ export default class NewProfile extends Component {
         let newProfile = {name: this.state.name, age: this.state.age, breed:this.state.breed, image: this.state.image}
         this.props.addProfile(newProfile)
         this.setState({
-            // newProfile: [newProfile],
             showForm: false,
             showDisplay: true,
         })
@@ -91,28 +90,24 @@ export default class NewProfile extends Component {
                     <input 
                         type="text" 
                         placeholder='Name'
-                        // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                         value={name}
                         onChange={this.handleName}
                     />
                     <input 
                         type="text" 
                         placeholder='Breed'
-                        // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                         value={breed}
                         onChange={this.handleBreed}
                     />
                     <input 
                         type="text" 
                         placeholder='Age'
-                        // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                         value={age}
                         onChange={this.handleAge}
                     />
                     <input 
                         type="text" 
                         placeholder='Image URL'
-                        // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                         value={image}
                         onChange={this.handleImage}
                     />
@@ -120,7 +115,6 @@ export default class NewProfile extends Component {
                         type="submit"
                         value="Submit"
                         className="btn-submit-new"
-                        // style={{flex: '1', fontSize: '14px', border: '1px solid black'}}
                     />
                     <button onClick={this.props.cancel}>Cancel</button>
                </form>
@@ -130,28 +124,24 @@ export default class NewProfile extends Component {
                         <input 
                             type="text" 
                             placeholder='Name'
-                            // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                             value={name}
                             onChange={this.handleName}
                         />
                         <input 
                             type="text" 
                             placeholder='Breed'
-                            // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                             value={breed}
                             onChange={this.handleBreed}
                         />
                         <input 
                             type="text" 
                             placeholder='Age'
-                            // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                             value={age}
                             onChange={this.handleAge}
                         />
                         <input 
                             type="text" 
                             placeholder='Image URL'
-                            // style={{flex: '10', padding: '5px', fontSize: '14px'}}
                             value={image}
                             onChange={this.handleImage}
                         />
@@ -160,7 +150,6 @@ export default class NewProfile extends Component {
                             type="submit"
                             value="Submit Changes"
                             className="btn-submit-edit"
-                            // style={{flex: '1', fontSize: '14px', border: '1px solid black'}}
                         />
                         
                                 
