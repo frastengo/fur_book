@@ -12,7 +12,7 @@ export default function Display(props){
                     <h2>{profile.age}</h2>
                     <h2>{profile.breed}</h2>
                 </div>
-                <button onClick={()=>props.edit(props.id)}>Edit</button>
+                <button onClick={props.edit}>Edit</button>
             </div>
         )
 }

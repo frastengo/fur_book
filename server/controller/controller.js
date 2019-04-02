@@ -1,8 +1,11 @@
 const profiles = require('../data/data.json')
 let myFriends = [];
-let newProfiles = []
+// let profiles = [];
 let id = 0;
 let profileid = 21;
+
+console.log(myFriends)
+console.log(profiles.profiles)
 
 module.exports = {
     getProfiles: (req, res) => {
@@ -25,6 +28,7 @@ module.exports = {
 
     addProfile: (req, res) => {
         const {name, age, breed, image} = req.body
+        let id = profileid
         const newProfile = {
             id,
             name,
@@ -32,9 +36,11 @@ module.exports = {
             breed,
             image
         };
-        newProfiles.push(newProfile);
+        
+    
+        profiles.profiles.push(newProfile);
         profileid++;
-        res.status(200).send(newProfiles);
+        res.status(200).send(profiles);
     },
 
     deleteFriend: (req, res) => {
@@ -50,20 +56,38 @@ module.exports = {
     },
 
     editProfile: (req, res) => { 
-        const {name} = req.body
- 
+        const {name, breed, age, image} = req.body;
         const editId = req.params.id;
-        const friendIndex = myFriends.findIndex(friend => friend.id == editId);
-        let friend = myFriends[friendIndex];
+        const profileIndex = profiles.profiles.findIndex(profile => profile.id == editId);
+        let profile = profiles.profiles[profileIndex];
+        console.log('bodyonedit',req.body)
+        console.log('profile', profile)
 
-        myFriends[friendIndex] = {
-        id: friend.id,
-        name: name || friend.name,
-        image: friend.image,
+        profiles.profiles[profileIndex] = {
+            id: editId,
+            name: name || profile.name,
+            image: image || profile.image,
+            breed: breed || profile.image,
+            age: age || profile.age
         };
 
         res.status(200).send(profiles);
     },
+
+    // update: (req, res) => {
+    //     const { text } = req.body;
+    //     const updateID = req.params.id;
+    //     const messageIndex = messages.findIndex(message => message.id == updateID);
+    //     let message = messages[messageIndex];
+    
+    //     messages[messageIndex] = {
+    //       id: message.id,
+    //       text: text || message.text,
+    //       time: message.time
+    //     };
+    
+    //     res.status(200).send(messages);
+    //   },
 
     // deleteProfile: (req, res) => {
 
@@ -72,4 +96,5 @@ module.exports = {
     // deleteFriend: (req, res) => {
 
     // }
+
 }

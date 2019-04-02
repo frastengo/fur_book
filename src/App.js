@@ -19,7 +19,9 @@ class App extends Component {
       friends: [],
       value: "",
       showForm: false,
-      newProfiles: [],
+      newProfile: null,
+      id: null,
+      // newProfiles: [],
       // showCreate: true,
     }
 
@@ -55,7 +57,7 @@ class App extends Component {
     //   image: profile.image,
     // };
     // console.log('here!!!!', newFriend)
-    axios.post('/api/profiles', profile).then(res => {
+    axios.post('/api/profiles/friends', profile).then(res => {
       console.log('profile', profile)
       this.setState({
         friends: res.data,
@@ -69,12 +71,15 @@ class App extends Component {
 
   addProfile = (newProfile) => {
     console.log('NEW PROFILEE!', newProfile)
-    axios.post('api/profiles', newProfile).then(res => {
-          console.log("Added new profile");
-          // console.log(res.data);
+    axios.post('/api/profiles', newProfile).then(res => {
+   
+          // console.log('data with new profile',res.data);
+          // let profilesNew = res.data.profiles
           this.setState({
-              newProfiles: res.data,
-              profiles: [...this.state.profiles, newProfile]
+              profiles: res.data.profiles,
+              newProfile: res.data.profiles.pop(),
+              
+              // profiles: [...this.state.profiles, newProfile]
           })
       }).catch((error)=>{console.log('Error creating new profile')})
   }
@@ -94,7 +99,7 @@ class App extends Component {
   //     });
   // }
 
-  delete = (id) => {
+  delete = (id, newProfile) => {
     axios.delete(`/api/profiles/${id}`).then(res => {
       this.setState({
         // myFriends: res.data,
@@ -103,11 +108,13 @@ class App extends Component {
     }).catch((error)=> {console.log('Error in Delete')})
   }
 
-  edit = (id) => {
-    axios.put(`/api/profiles/${id}`).then(res => {
+  editProfile = (id, edittedprofile) => {
+    // id = this.state.newProfile.id;
+    // console.log(id)
+    axios.put(`/api/profiles/${id}`, edittedprofile).then(res => {
       this.setState({
         // myFriends: res.data,
-        friends: res.data
+        profiles: res.data.profiles
       })
     }).catch((error)=> {console.log('Error in Delete')})
   }
@@ -165,28 +172,32 @@ class App extends Component {
 
 
   render() {
-    console.log('MYFRIENDS', this.state.myFriends)
-    console.log('IN APP JS', this.state.friends);
+    console.log(this.state.newProfile)
+     
+    
     const {profiles, friends, currentProfile} = this.state
     return (
-      <div className="App">
-        <Header />
-        <div classname="main-container">
-          <div className='main'>
-            <div className="create-new">
-              <button className='create' onClick={this.displayForm} >Create New Profile</button>
-              <div>
-                { this.state.showForm &&
-                  <NewProfile cancel={this.cancel} addProfile={this.addProfile} edit={this.editProfile}/>
-                }
+      <div className="bigcontainer">
+        <div className="App">
+          <Header />
+          <div classname="main-container">
+            <div className='main'>
+              <div className="create-new">
+                <img />
+                <button className='create' onClick={this.displayForm} >Create New Profile</button>
+                <div>
+                  { this.state.showForm &&
+                    <NewProfile newProfile={this.state.newProfile} cancel={this.cancel} addProfile={this.addProfile} editProfile={this.editProfile}/>
+                  }
+                </div>
+              </div>
+              <div className="display-container">
+                <ProfileList profiles={profiles} meet={this.meet}/>
+                <Display currentProfile={currentProfile} add={this.add}/>
+                <Friends friends={friends} delete={this.delete} handleChange={this.handleChange} value={this.value}/>
+              <footer className='footer-container'><div className='footer'></div></footer>
               </div>
             </div>
-            <div className="display-container">
-              <ProfileList profiles={profiles} meet={this.meet}/>
-              <Display currentProfile={currentProfile} add={this.add}/>
-              <Friends friends={friends} delete={this.delete} handleChange={this.handleChange} value={this.value}/>
-            </div>
-            <footer className='footer'>im the footer</footer>
           </div>
         </div>
       </div>

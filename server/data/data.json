@@ -81,10 +81,10 @@
       "city": "Colts Neck",
       "state": "New Jersey",
       "country": "United States",
-      "age": "needs age",
+      "age": "5 years old",
       "favorite": "Chewing loud squeaky toys at 500 SPM(squeaks per minute)",
       "breed": "French Bulldog",
-      "image": "https://lh3.googleusercontent.com/FnqsDEb1zSKwyaSVgQL_J3Bz2WdKmPtqFhVg1We-Nj-C-DLQ1B-CsYLZU1dBWtHGwssQAaTB1N7MMqjV-WyoKkhT_70sHZQ5_XVrKQU8KAJtD9EDBBGXn5nWknqTiaSDatqdxVtDEfYhbWUBJ1oM99DApJ6X_RR6gNMxYAwJG-sjDJUkmSd-DNXsgYZE1IXrP7xDuD0M5-iNIrCq3w9RK_bv2ylowczuTOzvhoxt15BCX8hiwOFvyXQPk1JIMAC2HNpqIu2PbmXVyaXiIRwvrXplNanrYmXLEhlCToxd_U0VBGMlPI-nonXE9fH2Yil6dt4SHRLDwTqq82eSRIgNx9L43bwCr_V6XFOM08a90zJ66J9jUWXPGvplnndnyrGhbqMd4NT1UsZuPHbWE_-mc7fGEYdmu_zScsUK5EaPKkfERg0GL-d3Y8Yx107wE0NImm5mGRmEA7Qi5ko5sAbc45-mdkcJlS1wPYrJfjhyPsmx1kuMCpARmcU7q5FCgTzYjhqlN-YymyM0e5-6zSG4W2XSvTPk0vwpIi1-Wrwa1sYsKsn7vXbAuI52fUnI8RRMOyiV4IwYZMb5gQMIzVzR9f9aKO9xu3nm6qj8Wa7mKkQYClFQHTBi6i-Wwdu7ietonF982NmQTkt_FE9HbP5rUb8dlrVFgdc=w555-h740-no"
+      "image": "https://lh3.googleusercontent.com/bM-ovbFiyy135HR4qWfh9s-6eYxoPRVhxYVHE32qqHh6av5YZtH2cKOro0Hje8Ntbv_AL4eVnoQILDmuV896gA4CRX0jWdXo5rAbsAUtnOh6wxj7fAC_rOqJFF96v1ppKMXuFXIRvgT2exCDI7nl-FG2L7S4AjxMzTtYk3bLyjCkrHj38LJAitZoMV0nHWlTMcr7aeyuTtgBk3CfYqF86W7R3HB-mcTr4yvBU5cYKJb_2nhK0iFg9o0jnw3cXlUXmA15GshQzCGL_pRPgK-_uEky60u8xRhn_bBqIRC0N9EiBRx7a2slbr4esr06pScvHUiZun-eY8h-YckDr_V0YIJI6QFMLSSQAZ-Gu95cTwZB24stkKPSJRyrONOGzpnBPbtWr-TiB1rz93pRgV_3D6kTkFxA4vp5q2K1oPgLA4ZTfRkbX4NeS16jiRlyZxzFF9RZoITs1tlhZxO2qMK70O9KttuK-3Vzre46nba7wg4cBh2JQGz73JvN0lUDDuAF7MkYpkv0ESy22w3tBi9UDVgZ7qVhy2RL5ombEki4q75117NCjwpEJabIrpqUB74Zj0rKskuARKVQjMQExbJ_7_44kQkOVWg04nQo1-SM1FDz8k-b42DEGI-XtFhv0QnDNiYKt6aAmoeXBubDNQJL8zI5YKr5sqw=w639-h688-no"
     },
     {
       "id": 8,
@@ -92,7 +92,7 @@
       "city": "Colts Neck",
       "state": "New Jersey",
       "country": "United States",
-      "age": "needs age",
+      "age": "4 years old",
       "favorite": "Walks on the beach",
       "breed": "Irish Wolfhound",
       "image": "https://lh3.googleusercontent.com/bTwXoUwFqejgPCJoFwE_CWFcJyPOC5ZmwDsKby798BZWBqqocg2TAqvRVEMDPVGtFjLBdy0worvS_Wa60vjL2FE0NeuyfhlqIF8EvCGZqonxs390BAGZxFTHSpzflXIWq-ckys4FBfP-ICjhirSKHFVhsmOir-fqvgnEBm3zqAlBGo05E-35epl0xmQwggJO1ndut0PYHFlgXqdk0-jCmgfqBD77-t6Y1M2yInsgUm3S1QtCOvUeo24HqfsDawVr-W-alsn27Vs_zmEc-scyX6qMsnknF6MR8bsOVvtjXbbUkTWOSxlB-GIMb_DMLTt8MJEO2aq-RFL-abKdrZ3XgvAjV8K6kOWQ13zTK_uwc3JJmwCaz7fq_q7BtdjSott4M49MuyLAU3uGXrhlx2rmq0u9-H3Wmr2mx3At22Reg2WqCDdzMVMPVaxKLT9Ez3kbd4E6E7ta2294JzDbb-JR_ToCsL6mC83IagjcoPFheDYJLcyy8ed3vOli-arI4ZKgjM7u289DtX053Dhd_FtjFFbmtC6KtxalFJUUG26zGoU6bMtFjmz0sCO8cbyTN1kht-G3gjBceZ0Bes40edPSp-Cq78HeEYcKSjgO3dmSys4Iz14-lIBEIuiFU2YL-OrWLUBTgHI6UU9spnCU7xlXqCwIcqju3Vk=w518-h615-no"
@@ -107,6 +107,28 @@
       "favorite": "Road trips",
       "breed": "Pomeranian",
       "image": "https://lh3.googleusercontent.com/HIMeVPHNiIinMW7teHkZpgqY5dgg39FoTCLyOVWl4OKErDKCtVFIDsquPic67IQLt_yvC6a5IOAPif_gU93F4-_YAplRcSojX1XFbZfG8uueZXCzZtE7n7q7f2EYla-Ldl8CWJy4-tgrjYgwK3TBq1ef_oiac_hX3NxWK_2eZTS9rWMnhEWeWB2X7QEOximUPVkna98YN8w5qZJ2XHBjChDxNKSP7vPnOy6lc_9oFjQUII2DbKpTSNk5khokuhhwYJbhDjoMHWa7Vus9s8LNSYzJ_XI8OelZ7Yh-0vAJcAh7LZZqkTL59g05p2IJjyvigd9ts5-szOFntnbbpVGp6D7jfNJ6xUeSWox7uFuDnL64EwFspy65brk84lQhXoh_z7DWgHFnFjgEdvykmbMYvnEtGv1Y14mVdA18EVYWLA4F3FOrHlSHhSn8OrQqmwfIxZrMXf_rRF8EnQqcLav-wLVBpG10NbLcXDvxG6YhkBh9MvTw5CF1eWDQHA6gHpafqmTj4TZubbKAk7aPKgOo_bzrKjYqvh648FLyeeI0pACY2_xtAJRoDCgbFOIaBNNgkJVoc1R5bj1mYDB6Qh-GHB1VI0VFXX6o7FbpLIYIGyEFZ9-Cxe9KAOYXNtHWIThL_cnRFm0RiXZ7tPpwO5lYpl7i7MK_iYo=s573-no"
+    },
+    {
+      "id": 10,
+      "name": "Bernie",
+      "city": "Mesa",
+      "state": "Arizona",
+      "country": "United States",
+      "age": "4 years old",
+      "favorite": "Tennis balls",
+      "breed": "Goldendoodle",
+      "image": ""
+    },
+    {
+      "id": 11,
+      "name": "Zeke",
+      "city": "Mesa",
+      "state": "Arizona",
+      "country": "United States",
+      "age": "2 years old",
+      "favorite": "Punching",
+      "breed": "Saint Bernoodle",
+      "image": ""
     }
   ]
 }

@@ -1,24 +1,23 @@
-.App {
+.bigcontainer {
   font-size: 16px;
   font-family: 'Merienda', cursive;
   background-attachment: fixed;
   background-image: url("./opacityprints.png");
   background-size: cover;
-  /* background: grey; */
-
-  
+  height: 100%;
+  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .create {
   font-size: 20px;
   border-radius: 20%;
   padding: 5px 5px;
-  width: 400px;
+  width: 200px;
   align-self: center;
-  margin: 20px 20px;
+  margin: 15px 15px;
   box-shadow: 3px 3px 3px grey;
   font-family: 'Merienda', cursive;
-
 }
 
 .create:hover {
@@ -30,33 +29,43 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  background: #f2f2f2;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  background-image: url('./pawwithheartopacity.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
 }
 
 .main {
   height: 100%;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   background: white;
   font-size: 16px;
   margin: 0 auto;
 }
 
 .main-container {
-  height: calc(100vh - 150px);
   background: blue;
   width: 100%;
+  height: 100%;
+  max-height: 4000px;
   font-size: 16px;
+  border: 5px solid grey;
+  
 }
 
 .display-container{
-  margin: 0 20px;
+  border: 2px solid grey;
+  height: 100%;
+  padding: 20px 20px;
 }
 
 .profiles {
-  /* max-width: 1200px; */
-  /* background: black; */
+  display: block;
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   border: 2px solid grey;
   border-radius: 5%;
@@ -64,43 +73,61 @@
   background: grey;
   background-image: url("./prints.jpg");
   box-shadow: 3px 3px 3px grey;
-  /* width: 200px; */
+  padding: 20px 20px;
 }
-
-
 
 .profile-container, .profile-container-1{
-  /* height: calc(100vh - 60px); */
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
-  /* border: 3px solid grey; */
-  margin: 10px;
+  margin: 9px;
 }
 
+.profile-container-1{
+  margin-top: 30px;
+  overflow: scroll;
+  margin-right: 30px;
+}
 
+.info h1 {
+  font-size: 55px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid grey;
+  padding: 15px 15px;
+  border-radius: 30%; 
+  box-shadow: 10px 5px 5px grey;
+}
 
+.info {
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-/* .holding-3 {
-  max-width: 1000px;
-  height: 200px;
-} */
+.info .properties {
+  font-size: 13px;
+  border: 1px solid white;
+  background: rgb(218, 218, 218);
+  border-radius: 10%;
+  color: black;
+  text-shadow: 1px 1px 1px grey;
+  padding: 10px 10px;
+}
 
 .friends-2 {
   width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   overflow: scroll;
 }
 
-
 .profile-container-3 {
   border: 1px solid grey;
   border-radius: 5%;
-  margin-left: 10px;
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -109,6 +136,21 @@
   margin: 20px 20px;
   background-image: url("./opacityprints.png");
   box-shadow: 10px 5px 5px grey;
+  padding-top: 10px;
+}
+
+.button-container{
+  background-image: url('./close-button.png');
+  background-size: cover;
+  height: 40px;
+  width: 30px;
+  margin-bottom: 30px;
+}
+.delete-btn {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 .profile-container-1 {
@@ -116,9 +158,9 @@
   border-radius: 5%;
   margin-left: 10px;
   background-image: url("./opacityprints.png");
+  background-size: 500px 500px;
   box-shadow: 10px 5px 5px grey;
 }
-
 
 .profile-container img, .profile-container-3 img{
   height: 150px;
@@ -127,83 +169,72 @@
   margin: 5px 5px;
   border-radius: 10%;
   box-shadow: 3px 3px 3px grey;
-  
+}
+
+.profile-container img{
+  height: 170px;
+  width: 170px;
 }
 
 .profile-container-1 img{
-  height: 250px;
-  width: 250px;
-  border: 4px solid rgb(190, 184, 184);
-  margin: 5px 5px;
+  height: 500px;
+  width: 500px;
+  border: 8px solid rgb(248, 245, 245);
+  margin: 20px 20px;
   border-radius: 10%;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .profile-container-1 img:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black; 
 }
 
-/* .App {
-
-} */
-
-.header-container {
-  height: 100%;
-  width: 100%;
-  max-width: 1000px;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  /* padding-left: 30px; */
-  
-
-}
-
-/* .header-image-container {
-  height: 100%;
-  width: 100%;
-  /* background-image: url("./download.jpeg");  */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover;  */
-/* } */
-
-
-
-/* header {
+.header {
+  width: 100vw;
+  max-width: 1100px;
   height: 150px;
-} */
+  background: white;
+  margin: 0 auto;
+}
+
 .logo {
   background-image: url("./logo.png");
   background-size: cover;
-  height: 160px;
-  width: 485px;
-  padding-bottom: 20px;
+  height: 200px;
+  width: 600px;
+  margin-bottom: 20px;
+}
 
+.logo-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
 }
 
 .pawpals {
   border: none;
   background-image: url("./heartwithpaw.png");
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   background-size: cover;
+  align-self: center;
   padding: 20px 20px;
-  margin-right: 20px;
+  margin-right: 50px;
+}
+
+.pawpals:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .footer {
+  height: 200px;
   background-image: url("./download.jpeg");
-  /* background-size: cover; */
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
+  background-size: cover;
+  background-position: center;
 }

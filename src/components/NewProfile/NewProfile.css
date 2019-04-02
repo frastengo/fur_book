@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('./pawwithheart.png');
+    background-size: 305px;
+    background-repeat: no-repeat;
 }
 
 .form input {
