@@ -17,8 +17,7 @@ export default class NewProfile extends Component {
             newProfile: props.newProfile,
             showForm: true,
             showEdit: false,
-            
-            
+            showDisplay: false,   
         }
     }
 
@@ -51,6 +50,7 @@ export default class NewProfile extends Component {
         this.setState({
             // newProfile: [newProfile],
             showForm: false,
+            showDisplay: true,
         })
     }
 
@@ -74,12 +74,7 @@ export default class NewProfile extends Component {
         this.setState({
             showEdit: true,
         })
-
-
-
     }
-
-   
 
     render(){
         console.log('from new profile' ,this.state.newProfile)
@@ -170,9 +165,10 @@ export default class NewProfile extends Component {
                         
                                 
                      <button onClick={this.props.cancel}>Cancel</button>
-                           </form>
+            </form>
             }
                 {mappedNewProfile}
+                
             </div>
             
             

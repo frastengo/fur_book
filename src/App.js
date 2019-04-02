@@ -20,9 +20,6 @@ class App extends Component {
       value: "",
       showForm: false,
       newProfile: null,
-      id: null,
-      // newProfiles: [],
-      // showCreate: true,
     }
 
   }
@@ -49,92 +46,46 @@ class App extends Component {
   }
 
   add = (profile) => {
-    // console.log("PROFILE", profile);
-    // const newFriend = {
-    //   name: profile.name,
-    //   age: profile.age,
-    //   breed: profile.breed,
-    //   image: profile.image,
-    // };
-    // console.log('here!!!!', newFriend)
     axios.post('/api/profiles/friends', profile).then(res => {
-      console.log('profile', profile)
+      console.log('Success')
       this.setState({
         friends: res.data,
-        // friends: [...this.state.friends, profile]
       })
     }).catch((error)=> {console.log('Error')})
-    // this.setState({
-    //   friends: [...this.state.friends, profile]
-    // })
   }
 
   addProfile = (newProfile) => {
-    console.log('NEW PROFILEE!', newProfile)
     axios.post('/api/profiles', newProfile).then(res => {
-   
-          // console.log('data with new profile',res.data);
-          // let profilesNew = res.data.profiles
+          console.log("Success")
           this.setState({
               profiles: res.data.profiles,
               newProfile: res.data.profiles.pop(),
-              
-              // profiles: [...this.state.profiles, newProfile]
           })
       }).catch((error)=>{console.log('Error creating new profile')})
   }
   
 
-
-
-
-
-
-
-  // delete = (index) => {
-  //     let friendsCopy = this.state.friends.slice();
-  //     friendsCopy.splice(index, 1);
-  //     this.setState({
-  //       friends: friendsCopy
-  //     });
-  // }
-
   delete = (id, newProfile) => {
     axios.delete(`/api/profiles/${id}`).then(res => {
+      console.log('Success deleting profile')
       this.setState({
-        // myFriends: res.data,
         friends: res.data
       })
-    }).catch((error)=> {console.log('Error in Delete')})
+    }).catch((error)=> {console.log('Error in deleting profile')})
   }
 
   editProfile = (id, edittedprofile) => {
-    // id = this.state.newProfile.id;
-    // console.log(id)
     axios.put(`/api/profiles/${id}`, edittedprofile).then(res => {
       this.setState({
-        // myFriends: res.data,
         profiles: res.data.profiles
       })
     }).catch((error)=> {console.log('Error in Delete')})
   }
 
-  // editFriend = (message) => {
-  //   const newTodo ={
-  //     id: 4,
-  //     title,
-  //     completed: false
-  //   }
-  //   this.setState({
-      
-  //     todos: [...this.state.todos, newTodo]
-  //   })
-  // }
 
   displayForm=(e)=>{
     this.setState({
       showForm: true,
-      // showCreate: false,
     })
   }
 
@@ -143,32 +94,6 @@ class App extends Component {
       showForm: false,
     })
   }
-
-  // edit = (profile.id) => {
-
-  // }
-  
-
-
-  //       // name: this.state.name,
-  //       // age: this.state.age,
-  //       // breed:this.state.breed,
-  //   })
-  //       .then(res => {
-  //           // console.log(res);
-  //           // console.log(res.data);
-  //           this.setState({
-  //               movies:[this.state.name,this.state.type,this.state.description, this.state.id]
-  //           })
-  //       })
-  // }
-  
-
-
-
-
-
-
 
 
   render() {

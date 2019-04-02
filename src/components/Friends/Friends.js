@@ -22,12 +22,7 @@ export default class Friends extends Component{
         this.setState({
             message: '',
         })
-
     } 
-
-
-
-
 
     render(){
         console.log('this.props', this.props.friends)
