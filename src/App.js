@@ -21,7 +21,6 @@ class App extends Component {
       showForm: false,
       newProfile: null,
     }
-
   }
 
   componentDidMount(){
@@ -63,7 +62,6 @@ class App extends Component {
           })
       }).catch((error)=>{console.log('Error creating new profile')})
   }
-  
 
   delete = (id, newProfile) => {
     axios.delete(`/api/profiles/${id}`).then(res => {
@@ -109,7 +107,7 @@ class App extends Component {
             <div className='main'>
               <div className="create-new">
                 
-                <button className='create' onClick={this.displayForm} >Create New Profile</button>
+                <button className='create' onClick={this.displayForm} >Create New Profile Bitches!</button>
                 <div>
                   { this.state.showForm &&
                     <NewProfile newProfile={this.state.newProfile} cancel={this.cancel} addProfile={this.addProfile} editProfile={this.editProfile}/>
